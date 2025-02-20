@@ -8,7 +8,7 @@ using osu.Framework.Platform;
 namespace AWBWApp.Game.Tests.Replays
 {
     [TestFixture]
-    [Ignore("Cannot be run in CI")] // TODO: make it so that a flag can be passed by the CI runner to avoid this sort of tests
+    [Category("NoCI")]
     public class TestReplayParsing
     {
         //Todo: This test doesn't really work outside of a desktop environment.
