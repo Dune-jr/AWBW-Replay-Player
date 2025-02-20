@@ -47,6 +47,7 @@ namespace AWBWApp.Game.Tests.Visual.Logic
         }
 
         [Test]
+        [Ignore("Cannot be run in CI")] // TODO
         public void TestDownloadMapAndRun()
         {
             //Note due to how AWBW functions, this test needs to be updated once every 1-2 weeks for it to not fail in headless.
